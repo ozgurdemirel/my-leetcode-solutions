@@ -102,7 +102,6 @@ class SortColorsTest {
         val input = intArrayOf(2, 0, 2, 1, 1, 0)
         Solution().sortColors(input)
         assertArrayEquals(intArrayOf(0, 0, 1, 1, 2, 2), input)
-
     }
 
 }
